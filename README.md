@@ -9,7 +9,6 @@ $ npm install --save swint-builder-html
 ```
 
 ## Options
-* `name` : `String`, default: `Project`
 * `inDir` : `String`, default: `path.dirname(require.main.filename)`
 * `outDir` : `String`, default: `path.join(path.dirname(require.main.filename), '../out')`
 * `minify` : `Boolean`, default: `true`
@@ -19,7 +18,6 @@ $ npm install --save swint-builder-html
 ## Usage
 ```javascript
 buildHTML({
-	name: 'Test',
 	inDir: path.join(__dirname, 'elements', 'target'),
 	outDir: path.join(__dirname, 'out'),
 	variables: {}

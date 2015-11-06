@@ -25,7 +25,6 @@ describe('builder-html', function() {
 
 	it('Simple case', function(done) {
 		buildHTML({
-			name: 'Test',
 			inDir: path.join(__dirname, '../test_case/target'),
 			outDir: path.join(os.tmpdir(), 'swint-builder-html-out'),
 			variables: {
