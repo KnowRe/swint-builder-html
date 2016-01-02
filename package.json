@@ -21,13 +21,16 @@
   "bugs": {
     "url": "https://github.com/KnowRe/swint-builder-html/issues"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "homepage": "https://github.com/KnowRe/swint-builder-html",
   "dependencies": {
     "async": "^1.4.2",
     "ejs": "^2.3.3",
     "html-minifier": "^0.7.2",
     "sprintf": "^0.1.5",
-    "swint-helper": "^0.1.4"
+    "swint-helper": "1.x"
   },
   "devDependencies": {
     "eslint": "*",
