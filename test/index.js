@@ -5,7 +5,7 @@ var os = require('os'),
 	swintHelper = require('swint-helper'),
 	buildHTML = require('../lib');
 
-global.swintVar.printLevel = 5;
+// global.swintVar.printLevel = 5;
 
 describe('builder-html', function() {
 	it('Error when no callback', function() {
@@ -27,6 +27,10 @@ describe('builder-html', function() {
 		buildHTML({
 			inDir: path.join(__dirname, '../test_case/target'),
 			outDir: path.join(os.tmpdir(), 'swint-builder-html-out'),
+			svg: {
+				enable: true,
+				dir: path.join(__dirname, '../test_case/svg')
+			},
 			variables: {
 				tmplVar: 'A'
 			}
