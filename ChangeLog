@@ -1,11 +1,22 @@
-2016.04.02, Version 1.1.2
+2017.01.26, Version 1.2.4
  * Upgrade: Upgraded dependencies
 
-2016.03.01, Version 1.1.1
+2016.06.06, Version 1.2.3
  * Upgrade: Upgraded dependencies
 
-2016.02.06, Version 1.1.0
+2016.04.02, Version 1.2.2
+ * Upgrade: Upgraded dependencies
+
+2016.03.01, Version 1.2.1
+ * Upgrade: Upgraded dependencies
+
+2016.02.06, Version 1.2.0
  * Update: Added inline SVG feature
+ * Upgrade: Upgraded dependencies
+
+2016.01.22, Version 1.1.0
+ * Update: Moved minifier options to main options
+ * Upgrade: html-minifier is now 1.1.1
 
 2016.01.02, Version 1.0.0
  * First official release
