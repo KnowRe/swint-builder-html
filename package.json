@@ -28,7 +28,7 @@
   "dependencies": {
     "async": "2.5.0",
     "ejs": "2.5.6",
-    "html-minifier": "3.5.3",
+    "html-minifier": "3.5.4",
     "sprintf": "0.1.5",
     "swint-helper": "1.2.6"
   },
