@@ -30,7 +30,7 @@
     "ejs": "2.5.6",
     "html-minifier": "3.5.3",
     "sprintf": "0.1.5",
-    "swint-helper": "1.2.6"
+    "swint-helper": "1.2.7"
   },
   "devDependencies": {
     "mocha": "3.4.2",
