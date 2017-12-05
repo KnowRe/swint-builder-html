@@ -1,6 +1,6 @@
 {
   "name": "swint-builder-html",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "HTML builder for Swint",
   "main": "lib/index.js",
   "scripts": {
