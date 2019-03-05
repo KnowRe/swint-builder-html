@@ -26,14 +26,14 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-builder-html",
   "dependencies": {
-    "async": "2.6.0",
-    "ejs": "2.5.7",
-    "html-minifier": "3.5.7",
+    "async": "2.6.2",
+    "ejs": "2.6.1",
+    "html-minifier": "3.5.21",
     "sprintf": "0.1.5",
-    "swint-helper": "1.2.8"
+    "swint-helper": "1.2.10"
   },
   "devDependencies": {
-    "eslint": "4.12.1",
-    "mocha": "4.0.1"
+    "eslint": "5.15.1",
+    "mocha": "6.0.2"
   }
 }
